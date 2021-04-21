@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    @variants responsive {
+        .bg-green-custom {
+          background-color:#42b72a 
+        }
+        .bg-green-custom:hover{
+            background-color:#36A420
+        }
+        .logo-facebook{
+          color:#1877f2
+        }
+    }
+  }
